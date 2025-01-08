@@ -1,0 +1,54 @@
+{
+    "name": "LookControler",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "2017c2b1-196c-46d1-967c-10d9e6315f22",
+            "actions": [
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "9b1ebc7d-5238-4222-8372-d1b4a1e80e6d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Throw",
+                    "type": "Button",
+                    "id": "304a28c1-1662-4e1b-b8f6-e3d804c70407",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4240f2cd-4e0d-424c-8abf-3173f48de4f0",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1856a4bb-9b60-4aaa-9d13-df4c82071998",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throw",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
